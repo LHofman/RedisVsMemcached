@@ -1,0 +1,21 @@
+{
+  "name": "redisvsmemcached",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Lennert Hofman",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "dateformat": "^3.0.3",
+    "memcached": "^2.2.2",
+    "memcached-promisify": "^2.0.0",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21",
+    "redis": "^2.8.0"
+  }
+}
